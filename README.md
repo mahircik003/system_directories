@@ -1,5 +1,5 @@
-# system_directories
+# Directories in an OS
 
-Implementation of directories with files and data in them using std::vector and self-implemented doubly linked list data structure.
+Directories are objects containing File objects in predefined std::vector. File objects contain Block objects, corresponding to data blocks in a file, in the form of a doubly linked list.
 
-Directory class contains a vector of File objects, which themselves contain a linked list of data blocks.
+Doubly Linked List is self-implemented and contains all common methods for manipulating the data structure.
